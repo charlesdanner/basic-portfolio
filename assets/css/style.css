@@ -8,9 +8,11 @@ header{
     background-color: #ffffff;
     border-color: #cccccc;
     width: 960px;
-    height: 70px;
+    height: 90px;
     position: relative;
     border-bottom-width: 2px;
+    border-style: solid;
+    margin-bottom: 30px;
 }
 
 
@@ -24,27 +26,51 @@ h1{
 
 .my-name{
     color: #ffffff;
-    height: 50px;
+    height: 60px;
     width: 230px;
     position: absolute;
     font-size: 30px;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .nav li {
     display: inline;
     float: right;
-    padding-top: 30px;
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
     
 }
 
 .nav a {
     text-decoration: none;
     color: #777777;
-    
+    font-family: Arial, Helvetica, sans-serif;
+   
+
 }
 
+#mid {
+    border-color: #efefef;
+    border-width: 2px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#right {
+    padding-right: 0px;
+    margin-right: 0px;
+}
 
 
 section{
