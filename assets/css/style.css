@@ -1,18 +1,21 @@
 body{
-    width: 960px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif; 
 }
 
 header{
-    background-color: ##4aaaa5;
-    border-color: #cccccc;
-    width: 960px;
     height: 90px;
     position: relative;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+#headerborder{
+    border-color: #cccccc;
     border-bottom-width: 2px;
     border-style: solid;
-    margin-bottom: 30px;
+    height: 90px;
+    width: 100%;
 }
 
 
@@ -32,7 +35,13 @@ header{
     border-bottom-width: 3px;
     width: 870px;
     margin-bottom: 30px;
+    margin: auto;
 
+}
+
+#headercontent{
+    width: 960px;       /*put header border and content in different divs so I could change their width values. This let me extend the border to the edge of the page. margins had to be set to auto for individual pieces because I took it out of the body so the border could extend beyond the 960px limit. */
+    margin: auto;
 }
 
 .my-name{
@@ -65,6 +74,8 @@ header{
 
 }
 
+
+
 #mid {
     border-color: #efefef;
     border-width: 2px;
@@ -88,11 +99,23 @@ section{
     width: 900px;
     padding-left: 30px;
     padding-right: 30px;
+    margin: auto;
+    height: 430px;
+}
+
+#container{
+    margin-top: 120px;
+}
+
+#floatleft{
+    float: left;
+    margin-right: 4px;
 }
 
 
+
 img{
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .contact-info{
