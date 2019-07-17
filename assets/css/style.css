@@ -17,7 +17,7 @@ header{
 
 
 
-h1{
+#sectionhead{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ffffff;
     position: absolute;
@@ -29,7 +29,7 @@ h1{
     padding-right: 30px;
     border-style: solid;
     border-color: #cccccc;
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
     width: 870px;
     margin-bottom: 30px;
 
