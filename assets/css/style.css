@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    background-color: #ffffff;
+    background-color: ##4aaaa5;
     border-color: #cccccc;
     width: 960px;
     height: 90px;
@@ -19,27 +19,40 @@ header{
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+    background: #ffffff;
     position: absolute;
+    color: #4aaaa5;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 2px;
+    width: 870px;
+    margin-bottom: 30px;
 
 }
 
 .my-name{
     color: #ffffff;
     height: 60px;
-    width: 230px;
+    width: 250px;
     position: absolute;
     font-size: 30px;
     padding-top: 30px;
     padding-left: 30px;
+    background: #4aaaa5;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .nav li {
-    display: inline;
     float: right;
     padding-top: 40px;
     margin-left: 10px;
-    margin-right: 10px;
     font-size: 18px;
     
 }
@@ -60,16 +73,9 @@ h1{
     border-bottom: none;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-
-#right {
-    padding-right: 0px;
-    margin-right: 0px;
 }
 
 
@@ -77,6 +83,16 @@ section{
     background-color: #ffffff;
     border-color: #dddddd;
     color: #777777; 
+    border-width: 1px;
+    border-style: solid;
+    width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+img{
+    max-width: 150px;
 }
 
 .contact-info{
