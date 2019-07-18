@@ -6,11 +6,9 @@ html, body {
     background: url("../images/crossline-lines.png");
 }
 
-
 .content{
     min-height: calc(100vh - 70px);
 }
-
 
 header{
     height: 90px;
@@ -27,8 +25,6 @@ header{
     height: 90px;
     width: 100%;
 }
-
-
 
 #sectionhead{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,7 +43,6 @@ header{
     margin-bottom: 60px;
     margin-top: 30px;
     margin: auto;
-
 }
 
 #portfoliohead {
@@ -67,7 +62,6 @@ header{
     margin-bottom: 60px;
     margin-top: 30px;
     margin: auto;
-
 }
 
 #portsection{
@@ -81,8 +75,6 @@ header{
     margin-right: 30px;
 }
 
-
- 
 .portfolio-links{
     margin-top: 120px;
     height: 600px;
@@ -165,8 +157,6 @@ top: 460px;
 
 }
 
-
-
 #headercontent{
     width: 960px;       /*put header border and content in different divs so I could change their width values. This let me extend the border to the edge of the page. margins had to be set to auto for individual pieces because I took it out of the body so the border could extend beyond the 960px limit. */
     margin: auto;
@@ -217,8 +207,6 @@ top: 460px;
 
 }
 
-
-
 #mid {
     border-color: #efefef;
     border-width: 2px;
@@ -231,7 +219,6 @@ top: 460px;
     margin-left: 10px;
     margin-right: 10px;
 }
-
 
 section{
     background-color: #ffffff;
@@ -262,7 +249,6 @@ p{
     line-height: 200%;
     padding-bottom: 30px;
 }
-
 
 img{
     width: 210px;
