@@ -64,6 +64,45 @@ header{
     margin: auto;
 }
 
+#contacthead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #ffffff;
+    position: absolute;
+    color: #4aaaa5;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 3px;
+    width: 870px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+#contact-info{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777; 
+    border-width: 1px;
+    border-style: solid;
+    width: 900px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#form{
+    padding-top: 120px;
+}
+
 #portsection{
     margin: auto;
     height:800px;
