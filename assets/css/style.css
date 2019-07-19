@@ -18,6 +18,41 @@ header{
     background: #ffffff;
 }
 
+
+#left:hover{
+    color: #ffffff;
+    background: #4aaaa5;
+
+}
+
+#left:active{
+    background: purple;
+    color: #4aaaa5;
+}
+
+#mid:hover{
+    color: #ffffff;
+    background: #4aaaa5;
+
+}
+
+#mid:active{
+    background: purple;
+    color: #4aaaa5;
+}
+
+
+#right:hover{
+    color: #ffffff;
+    background: #4aaaa5;
+
+}
+
+#right:active{
+    background: purple;
+    color: #4aaaa5;
+}
+
 #headerborder{
     border-color: #cccccc;
     border-bottom-width: 2px;
@@ -263,6 +298,7 @@ top: 460px;
     padding-top: 40px;
     margin-left: 10px;
     font-size: 18px;
+    height: 40px;
     
 }
 
@@ -270,6 +306,7 @@ top: 460px;
     text-decoration: none;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
    
 
 }
@@ -285,6 +322,7 @@ top: 460px;
     padding-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    height: 40px;
 }
 
 section{
